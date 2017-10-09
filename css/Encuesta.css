@@ -1,0 +1,65 @@
+.BotonEncuesta {
+	border: 2px solid;
+	border-radius: 30px;
+	border-color: rgba(214, 203, 203, 0.88);
+	background: rgba(51, 122, 183, 1);
+	background: -moz-linear-gradient(left, rgba(51, 122, 183, 1) 0%, rgb(59, 127, 191) 86%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51, 122, 183, 1)), color-stop(86%, rgb(59, 127, 191)));
+	background: -webkit-linear-gradient(left, rgba(51, 122, 183, 1) 0%, rgb(59, 127, 191) 86%);
+	background: -o-linear-gradient(left, rgba(51, 122, 183, 1) 0%, rgb(59, 127, 191) 86%);
+	background: -ms-linear-gradient(left, rgba(51, 122, 183, 1) 0%, rgb(59, 127, 191) 86%);
+	background: linear-gradient(to right, rgba(51, 122, 183, 1) 0%, rgb(59, 127, 191) 86%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4791eb', endColorstr='#1e6ee6', GradientType=1);
+}
+
+.CampoTexto
+{
+	border-radius: 20px;
+}
+.CampoDropDown
+{
+	border-radius: 10px;
+} 
+ 
+.Seccion{
+	background-color: lightblue;
+	border-radius: 10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.btnVolver:hover {
+	cursor: pointer;
+}
+
+.btnVolver {
+	position: fixed;
+	left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	width: 100%;
+	z-index: 20;
+}
+
+body,
+html {
+	height: 100%;
+	/*Siempre es necesario cuando trabajamos con alturas*/
+}
+
+.inferior {
+	color: #FFF;
+	position: absolute;
+	/*El div será ubicado con relación a la pantalla*/
+	left: 0px;
+	/*A la derecha deje un espacio de 0px*/
+	right: 0px;
+	/*A la izquierda deje un espacio de 0px*/
+	bottom: 0px;
+	/*Abajo deje un espacio de 0px*/
+	height: 50px;
+	/*alto del div*/
+	z-index: 0;
+}

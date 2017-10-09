@@ -1,0 +1,147 @@
+.imgConnect {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.Boton:hover {
+    color: black;
+    background-color: black;
+}
+
+.Boton {
+
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: rgba(214, 203, 203, 0.88);
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+
+    background: rgba(71, 145, 235, 1);
+    background: -moz-linear-gradient(left, rgba(71, 145, 235, 1) 0%, rgba(30, 110, 230, 0.67) 76%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(71, 145, 235, 1)), color-stop(76%, rgba(30, 110, 230, 0.67)));
+    background: -webkit-linear-gradient(left, rgba(71, 145, 235, 1) 0%, rgba(30, 110, 230, 0.67) 76%);
+    background: -o-linear-gradient(left, rgba(71, 145, 235, 1) 0%, rgba(30, 110, 230, 0.67) 76%);
+    background: -ms-linear-gradient(left, rgba(71, 145, 235, 1) 0%, rgba(30, 110, 230, 0.67) 76%);
+    background: linear-gradient(to right, rgba(71, 145, 235, 1) 0%, rgba(30, 110, 230, 0.67) 76%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4791eb', endColorstr='#1e6ee6', GradientType=1);
+}
+
+.TituloCirculo {
+
+    /* font-family: cursive; */
+    /*color: #1e57d2;*/
+    color: white;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.imgConnect:hover {
+    cursor: pointer;
+}
+
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#circle1 {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+#circle2 {
+    width: 125px;
+    height: 125px;
+    background: red;
+}
+
+#circle3 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: relative;
+}
+
+#circle4 {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    top: 24%;
+    left: 24%;
+    display: block;
+    border: 3px solid #fff;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+.circleValue {
+    position: absolute;
+    font-size: 18pt;
+    margin-top: 40px;
+    margin-left: 25px;
+    z-index: 20;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.advanced {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    background-image: -moz-radial-gradient(45px 45px, circle cover, rgba(0, 78, 255, 0.91), rgba(51, 255, 0, 0.58));
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, rgba(0, 78, 255, 0.91), rgba(51, 255, 0, 0.58));
+    background-image: radial-gradient(45px 45px, circle cover, rgba(0, 78, 255, 0.91), rgba(51, 255, 0, 0.58));
+
+
+    /* webkit chrome, safari, mobile */
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 3s;
+    /* 3 seconds */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    /* mozilla ff */
+    -moz-animation-name: spin;
+    -moz-animation-duration: 3s;
+    /* 3 seconds */
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    /* microsoft ie */
+    -ms-animation-name: spin;
+    -ms-animation-duration: 3s;
+    /* 3 seconds */
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
